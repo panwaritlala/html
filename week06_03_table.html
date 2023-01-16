@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="panwarit suriwan">
+    <title>table-panwarit</title>
+</head>
+<body>
+    <h1>Welcome to panwarit Homepage</h1>
+    <hr>
+    <h4 align="right"><a href="home.html">back to home</a></h4>
+    <h2>Normal Table</h2>
+    <table border="1"> <!--สร้างตาราง-->
+        <thead> <!--ส่วนหัว-->
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>phone</th>
+            </tr>
+        </thead>
+        <tbody> <!--ส่วนตัว-->
+            <tr>
+                <td>644230061</td>
+                <td>panwarit</td>
+                <td>0649523391</td>
+            </tr>
+            <tr>
+                <td>644230047</td>
+                <td>praput</td>
+                <td>0989073809</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Add color to Table : bgcolor/bordercolor</h2>
+    <table border="1" bordercolor="red"> <!--สร้างตารางใส่สี-->
+        <thead bgcolor="red"> <!--ส่วนหัว-->
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>phone</th>
+            </tr>
+        </thead>
+        <tbody> <!--ส่วนตัว-->
+            <tr>
+                <td>644230061</td>
+                <td>panwarit</td>
+                <td>0649523391</td>
+            </tr>
+            <tr>
+                <td>644230047</td>
+                <td>praput</td>
+                <td bgcolor="yellow">0989073809</td> <!--ใส่สี-->
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Table : width/align/colspan/rowspan</h2>
+    <table border="1" bordercolor="red"> 
+        <thead bgcolor="red"> 
+            <tr>
+                <th>id</th>
+                <th width="200px" align="left">name</th>
+                <th>phone</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>644230061</td>
+                <td>panwarit</td>
+                <td rowspan="2" bgcolor="yellow">0649523391</td> <!--รวมตาราง,คอลัม-->
+            </tr>
+            <tr>
+                <td>644230047</td>
+                <td>praput</td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="yellow">call teacher</td>
+                <td>0856251595</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Table : cellpadding/cellspacing</h2>
+    <table border="1" bordercolor="red" cellpadding="10px" cellspacing="5px"> <!--ตารางขยายขึ้น,กรอบขยายขึ้น-->
+        <thead bgcolor="red"> 
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>phone</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>644230061</td>
+                <td>panwarit</td>
+                <td>0649523391</td>
+            </tr>
+            <tr>
+                <td>644230047</td>
+                <td>praput</td>
+                <td bgcolor="yellow">0989073809</td> 
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+</body>
+</html>
